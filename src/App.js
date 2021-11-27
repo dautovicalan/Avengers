@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          bok svima, ja sam dimon
+        </p>
       </header>
     </div>
   );
