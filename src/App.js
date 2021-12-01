@@ -8,6 +8,7 @@ function App() {
 
 
       <p>JA SAM TEST</p>
+      <p>JA SAM MARIN</p>
       <InfinityStones>
         
       </InfinityStones>
