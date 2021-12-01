@@ -18,15 +18,25 @@ const InfinityStones = () => {
                     <div className="stone-component">
                         <img src={require('../Pictures/InfinityStones/time_stone.jpg').default} className="stone-picture"/>
                         <h3 className="stone-name">{stoneNames[0].stoneName}</h3>
+                        <p className="stones-paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
+                             architecto fuga, minus harum nulla commodi repellendus asperiores neque perspiciatis quam, 
+                             laudantium est expedita dolore, velit recusandae similique?
+                        </p>
                     </div>
                     <div className="stone-component">
                         <img src={require('../Pictures/InfinityStones/time_stone.jpg').default} className="stone-picture"/>
                         <h3 className="stone-name">{stoneNames[1].stoneName}</h3>
+                        <p className="stones-paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
+                             architecto fuga, minus harum nulla commodi repellendus asperiores neque perspiciatis quam, 
+                             laudantium est expedita dolore, velit recusandae similique?
+                        </p>
                     </div>
                     <div className="stone-component">
                         <img src={require('../Pictures/InfinityStones/time_stone.jpg').default} className="stone-picture"/>
                         <h3 className="stone-name">{stoneNames[2].stoneName}</h3>
-                        <p>
+                        <p className="stones-paragraph">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
                              architecto fuga, minus harum nulla commodi repellendus asperiores neque perspiciatis quam, 
                              laudantium est expedita dolore, velit recusandae similique?

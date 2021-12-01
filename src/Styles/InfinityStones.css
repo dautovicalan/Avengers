@@ -41,3 +41,10 @@
     height: 500px;
     object-fit: cover;
 }
+.stones-paragraph{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+}
