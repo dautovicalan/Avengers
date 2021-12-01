@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/Main.css'
-import img1 from '../Pictures/avengers.jpg'
+import img1 from '../Pictures/MainPicture/avengers.jpg'
 
 const MainPic = () => {
     return (
