@@ -1,0 +1,9 @@
+.character-list{
+    display: flex;
+    justify-content: space-around;
+    background-color: purple;
+}
+
+.character-infos{
+    background-color: white;
+}
