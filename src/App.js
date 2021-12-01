@@ -5,6 +5,9 @@ function App() {
     <div className="App">
       <p>Jebat cu ti mater git mrtvu</p>
       <p>Ajmooo jos testtttt</p>
+
+
+      <p>JA SAM TEST</p>
       <InfinityStones>
         
       </InfinityStones>
