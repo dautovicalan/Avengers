@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <p>MARIN JE SUPER</p>
-      <p>OVO JE MOJ PRVI PR</p>
+      <p>OVO JE MOJ DRUGI PR</p>
       <InfinityStones>
         
       </InfinityStones>
