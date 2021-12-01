@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Marvel:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Estonia&family=Marvel:ital@1&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.flexbox-container {
+  display: flex;
+}
+
+.flexbox-item-1 {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.flexbox-container .main-picture {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+  top: -30px;
+}
+
+.flexbox-item-1 .quote {
+  position: absolute;
+  z-index: 1;
+  color: rgb(192, 139, 26);
+  left: 13%;
+  right: 0%;
+  top: 85%;
+  font-size: 2.5vw;
+  text-shadow: 3px 3px black;
+  font-family: "Bebas Neue", cursive;
+  width: auto;
+  width: 23%;
+}
+
+.flexbox-item-1 .quote-1 {
+  position: absolute;
+  z-index: 1;
+  color: rgb(192, 139, 26);
+  left: 80%;
+  right: 0%;
+  top: 20%;
+  font-size: 1.5vw;
+  text-shadow: 3px 3px black;
+  font-family: "Estonia", cursive;
+  width: auto;
+}
+
+.flexbox-item-1 .quote-2 {
+  position: absolute;
+  z-index: 1;
+  color: rgb(192, 139, 26);
+  left: 0.5%;
+  right: 0%;
+  top: 34%;
+  font-size: 1.5vw;
+  text-shadow: 3px 3px black;
+  font-family: "Estonia", cursive;
+  width: 25%;
+}
+
+.flexbox-item-1 h1:hover {
+  color: gold;
+  text-shadow: 0 0 10px goldenrod, 0 0 20px goldenrod, 0 0 40px goldenrod,
+    0 0 80px goldenrod, 0 0 120px goldenrod;
+  transition-duration: 300ms;
+}
