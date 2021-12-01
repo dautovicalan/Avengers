@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-header{
+    font-size: 50px;
+}
+.infinity-stone-section{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+.stone-picture-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: brown;
+    width: 100%;
+}
+.stone-picture-row img{
+    border: cornflowerblue 1px solid;
+    width: 33.33%;
+    height: 500px;
+    object-fit: cover;
+
+}
