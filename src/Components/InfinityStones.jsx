@@ -25,7 +25,7 @@ const InfinityStones = () => {
                         </p>
                     </div>
                     <div className="stone-component">
-                        <img src={require('../Pictures/InfinityStones/time_stone.jpg').default} className="stone-picture"/>
+                        <img src={require('../Pictures/InfinityStones/mind_stone.jpg').default} className="stone-picture"/>
                         <h3 className="stone-name">{stoneNames[1].stoneName}</h3>
                         <p className="stones-paragraph">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
@@ -34,7 +34,36 @@ const InfinityStones = () => {
                         </p>
                     </div>
                     <div className="stone-component">
-                        <img src={require('../Pictures/InfinityStones/time_stone.jpg').default} className="stone-picture"/>
+                        <img src={require('../Pictures/InfinityStones/power_stone.jpg').default} className="stone-picture"/>
+                        <h3 className="stone-name">{stoneNames[2].stoneName}</h3>
+                        <p className="stones-paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
+                             architecto fuga, minus harum nulla commodi repellendus asperiores neque perspiciatis quam, 
+                             laudantium est expedita dolore, velit recusandae similique?
+                        </p>
+                    </div>
+                </div>
+                <div className="stone-picture-row">
+                    <div className="stone-component">
+                        <img src={require('../Pictures/InfinityStones/soul_stone.jpg').default} className="stone-picture"/>
+                        <h3 className="stone-name">{stoneNames[0].stoneName}</h3>
+                        <p className="stones-paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
+                             architecto fuga, minus harum nulla commodi repellendus asperiores neque perspiciatis quam, 
+                             laudantium est expedita dolore, velit recusandae similique?
+                        </p>
+                    </div>
+                    <div className="stone-component">
+                        <img src={require('../Pictures/InfinityStones/reality_stone.jpg').default} className="stone-picture"/>
+                        <h3 className="stone-name">{stoneNames[1].stoneName}</h3>
+                        <p className="stones-paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
+                             architecto fuga, minus harum nulla commodi repellendus asperiores neque perspiciatis quam, 
+                             laudantium est expedita dolore, velit recusandae similique?
+                        </p>
+                    </div>
+                    <div className="stone-component">
+                        <img src={require('../Pictures/InfinityStones/space_stone.jpg').default} className="stone-picture"/>
                         <h3 className="stone-name">{stoneNames[2].stoneName}</h3>
                         <p className="stones-paragraph">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
@@ -45,6 +74,7 @@ const InfinityStones = () => {
                 </div>
 
             </div>
+            
         </div>
     )
 }
