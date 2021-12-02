@@ -6,7 +6,16 @@ const InfinityStones = () => {
     const stoneNames = [{id: 1, stoneName: 'Mind Stone'}, {id: 1, stoneName: 'Time Stone'}, {id: 1, stoneName: 'Reality Stone'},
     {id: 1, stoneName: 'Space Stone'}, {id: 1, stoneName: 'Power Stone'}, {id: 1, stoneName: 'Soul Stone'}]
 
-    const [stoneName, setStoneName] = useState('')
+    const stoneDescriptions = [
+        {id: 1, description: "lorem lorem lorem"}, 
+        {id: 2, description: "lorem lorem lorem"},
+        {id: 3, description: "lorem lorem lorem"},
+        {id: 4, description: "lorem lorem lorem"},
+        {id: 5, description: "lorem lorem lorem"},
+        {id: 6, description: "lorem lorem lorem"},
+    ]
+
+    
 
     return (
         <div>
@@ -18,7 +27,7 @@ const InfinityStones = () => {
                     <div className="stone-component">
                         <img src={require('../Pictures/InfinityStones/time_stone.jpg').default} className="stone-picture"/>
                         <h3 className="stone-name">{stoneNames[0].stoneName}</h3>
-                        <p className="stones-paragraph">
+                        <p className="stones-paragraph ">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
                              architecto fuga, minus harum nulla commodi repellendus asperiores neque perspiciatis quam, 
                              laudantium est expedita dolore, velit recusandae similique?
