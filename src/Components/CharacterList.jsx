@@ -1,33 +1,58 @@
-import { Collapse, Button, Carousel } from 'react-bootstrap'
+import { Collapse, Button } from 'react-bootstrap'
 import { useState } from 'react';
+import { Slide } from 'react-slideshow-image';
 import '../Styles/CharacterList.css'
 
 const CharacterList = () => {
 
     const[open, setOpen] = useState(false);
 
+    
     return (
         <div className='character-list'> 
-            <div className='single-character'>
-                <div className="character-image">
-                    <img src={require('../Pictures/Characters/thor.jpg').default} alt="" />
-                </div>
-                <h3>Thor</h3>
-                <Button
-                    onClick={() => setOpen(!open)}
-                    aria-controls="example-collapse-text"
-                    aria-expanded={open}
-                >
-                    Show More Information
-                </Button>
-                <Collapse in={open}>
-                    <div className="character-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dolore consectetur iusto facere debitis laboriosam atque,
-                        quo aut dolorem eius aliquid, illum maxime tempora porro
-                        soluta quae sed alias at impedit.
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src={require('../Pictures/Characters/ironman.jpg').default} alt="Paris" style={{width:"400px", height:"400px"}} />
                     </div>
-                </Collapse>
+                    <div class="flip-box-back">
+                        <h2>Iron Man</h2>
+                        <p>What an amazing super hero</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src={require('../Pictures/Characters/thor.jpg').default} alt="Paris" style={{width:"400px", height:"400px"}} />
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>Thor</h2>
+                        <p>What an amazing super hero</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src={require('../Pictures/Characters/captainamerica.jpg').default} alt="Paris" style={{width:"400px", height:"400px"}} />
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>Captain America</h2>
+                        <p>What an amazing super hero</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src={require('../Pictures/Characters/thanos.jpg').default} alt="Paris" style={{width:"400px", height:"400px"}} />
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>Thanos</h2>
+                        <p>What an amazing super hero</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
