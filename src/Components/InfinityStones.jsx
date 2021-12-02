@@ -24,9 +24,6 @@ const InfinityStones = () => {
 
     return (
         <div>
-            <h1 className="main-header">
-                Infinity Stones
-            </h1>
             <div className="infinity-stone-section">
                 <div className="stone-picture-row">
                     <div ref={stoneRef1} className="stone-component" onMouseEnter={() => handleOnHover(stoneRef1)} onMouseLeave={() => handleOffHover(stoneRef1)}>
