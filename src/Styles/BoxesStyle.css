@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Marvel:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Estonia&family=Marvel:ital@1&display=swap");
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.flexbox-container {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  background-image: url(../Pictures/Stars.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.flexbox-inner-item-1 {
+  border: 1px solid black;
+  height: auto;
+  width: 50vh;
+  transform: skew(0deg, 6deg);
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: "Bebas Neue", cursive;
+  color: rgb(192, 139, 26);
+  font-size: 1.2vw;
+  /*-----------*/
+  animation: glitch 725ms infinite;
+  letter-spacing: 0.2rem;
+}
+
+.flexbox-inner-item-2 {
+  border: 1px solid black;
+  height: auto;
+  width: 50vh;
+  transform: skew(0deg, -6deg);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Bebas Neue", cursive;
+  color: rgb(192, 139, 26);
+  font-size: 1.2vw;
+  animation: glitch 725ms infinite;
+  letter-spacing: 0.2rem;
+}
+
+.first-post {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.second-post {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+#red-color {
+  color: crimson;
+}
+
+.h3 {
+  animation: glitch 500ms infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+  transform: translate(-0.04em, -0.03em);
+  opacity: 0.75;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 #d9ff00, -0.03em -0.04em 0 #ff4800,
+      0.025em 0.04em 0 #ff1100;
+  }
+  15% {
+    text-shadow: 0.05em 0 0 #fffb00, -0.03em -0.04em 0 #ff4800,
+      0.025em 0.04em 0 #fffc00;
+  }
+  16% {
+    text-shadow: -0.05em -0.025em 0 #00ff37, 0.025em 0.035em 0 #fc00ff,
+      -0.05em -0.05em 0 #fffc00;
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 #00ff37, 0.025em 0.035em 0 #fc00ff,
+      -0.05em -0.05em 0 #fffc00;
+  }
+  50% {
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+      0 -0.04em 0 #fffc00;
+  }
+  99% {
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+      0 -0.04em 0 #fffc00;
+  }
+  100% {
+    text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+      -0.04em -0.025em 0 #fffc00;
+  }
+}
