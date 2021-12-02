@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Permanent+Marker&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .main-header{
-    font-size: 50px;
+    font-size: 10px;
 }
 .infinity-stone-section{
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -17,7 +19,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: brown;
     width: 100%;
 }
 .stone-component{
@@ -26,15 +27,93 @@
     position: relative;
     height: auto;
 }
-
 .stone-component h3{
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: yellow;
+    color: rgb(214, 214, 214);
+    text-shadow: 6px 3px black;
+    font-family: 'Patua One', cursive;
+    font-size: 50px;
+    
 }
-
+.time-stone-glow{
+    animation: time-stone-glow 1s ease-in-out infinite alternate;
+}
+.power-stone-glow{
+    animation: power-stone-glow 1s ease-in-out infinite alternate;
+}
+.space-stone-glow{
+    animation: space-stone-glow 1s ease-in-out infinite alternate;
+}
+.soul-stone-glow{
+    animation: soul-stone-glow 1s ease-in-out infinite alternate;
+}
+.reality-stone-glow{
+    animation: reality-stone-glow 1s ease-in-out infinite alternate;
+}
+.mind-stone-glow{
+    animation: mind-stone-glow 1s ease-in-out infinite alternate;
+}
+@keyframes power-stone-glow {
+    from {
+      text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+@keyframes reality-stone-glow {
+    from {
+      text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(255, 0, 0), 0 0 30px #ff0000, 0 0 40px #fa0000, 0 0 50px #ff0000, 0 0 60px #ff0b0b, 0 0 70px #ff0f0f, 0 0 80px #ff0000;
+    }
+}
+@keyframes space-stone-glow {
+    from {
+      text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 30px #0051ff, 0 0 40px #0051ff, 0 0 50px #0051ff, 0 0 60px #0051ff, 0 0 70px #0051ff, 0 0 80px #0051ff;
+    }
+}
+@keyframes mind-stone-glow {
+    from {
+      text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 30px #ffe600, 0 0 40px #ffe600, 0 0 50px #ffe600, 0 0 60px #ffe600, 0 0 70px #ffe600, 0 0 80px #ffe600;
+    }
+}
+@keyframes soul-stone-glow {
+    from {
+      text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 30px #ff7300, 0 0 40px #ff7300, 0 0 50px #ff7300, 0 0 60px #ff7300, 0 0 70px #ff7300, 0 0 80px #ff7300;
+    }
+}
+@keyframes time-stone-glow {
+    from {
+      text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 30px #2abd16, 0 0 40px #2abd16, 0 0 50px #2abd16, 0 0 60px #2abd16, 0 0 70px #2abd16, 0 0 80px #2abd16;
+    }
+}
+@keyframes stones-paragraph-fade-in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
 .stone-component img{
     border: rgb(28, 51, 93) 1px solid;
     width: 100%;
@@ -43,8 +122,16 @@
 }
 .stones-paragraph{
     position: absolute;
-    top: 65%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: yellow;
+    font-size: 32px;
+    text-shadow: 1px 1px rgb(255, 230, 0);
+    font-family: "Estonia", cursive;
+    font-weight: bold;
+    display: none;
+    animation: stones-paragraph-fade-in 0.5s;
+}
+.stone-component:hover+.stones-paragraph{
+    display: block;
 }
