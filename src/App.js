@@ -2,6 +2,7 @@ import Boxes from './Components/Boxes';
 import InfinityStones from './Components/InfinityStones';
 import MainPic from './Components/MainPic';
 import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Boxes/>
       <InfinityStones>
       </InfinityStones>
+      <Footer/>
     </div>
   );
 }
