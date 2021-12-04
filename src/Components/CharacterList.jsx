@@ -15,7 +15,7 @@ const CharacterList = () => {
                         </div>
                         <div class="flip-box-back" >
                             <h2>Iron Man</h2>
-                            <p>What an amazing super hsero</p>
+                            <p>What an amazing super hero</p>
                         </div>
                     </div>
                 </div>
