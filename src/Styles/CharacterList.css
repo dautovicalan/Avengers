@@ -12,8 +12,6 @@
     perspective: 1000px;
     overflow: hidden;
     border-radius: 50%;
-    animation: heartbeat 6s infinite;
-
   }
   
   .flip-box-inner {
@@ -55,31 +53,6 @@
     border-radius: 50%;
 
   }
-
-  @keyframes heartbeat
-{
-  0%
-  {
-    transform: scale( .75 );
+  .my-modal .modal-content {
+    background-color: red;
   }
-  20%
-  {
-    transform: scale( 1 );
-  }
-  40%
-  {
-    transform: scale( .75 );
-  }
-  60%
-  {
-    transform: scale( 1 );
-  }
-  80%
-  {
-    transform: scale( .75 );
-  }
-  100%
-  {
-    transform: scale( .75 );
-  }
-}
