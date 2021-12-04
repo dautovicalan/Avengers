@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Marvel:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Estonia&family=Marvel:ital@1&display=swap");
+
+body {
+  margin: 0;
+}
+
+nav.navbar-avengers ul li a {
+  position: relative;
+  z-index: 1;
+}
+nav.navbar-avengers ul li a:hover {
+  color: #91640f;
+}
+nav.navbar-avengers ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: ".";
+  color: transparent;
+  background: rgb(109, 14, 33);
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.navbar-avengers ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(10, 14, 44);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  font-family: "Bebas Neue", cursive;
+}
+
+li {
+  float: left;
+}
+
+img {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(192, 139, 26);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+.logo {
+  width: auto;
+  height: 3.5rem;
+}

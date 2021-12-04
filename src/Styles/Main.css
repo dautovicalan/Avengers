@@ -28,7 +28,7 @@ body {
 
 .flexbox-item-1 .quote {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   color: rgb(192, 139, 26);
   left: 13%;
   right: 0%;
@@ -42,7 +42,7 @@ body {
 
 .flexbox-item-1 .quote-1 {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   color: rgb(192, 139, 26);
   left: 80%;
   right: 0%;
@@ -55,7 +55,7 @@ body {
 
 .flexbox-item-1 .quote-2 {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   color: rgb(192, 139, 26);
   left: 0.5%;
   right: 0%;
