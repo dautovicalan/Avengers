@@ -5,7 +5,7 @@ const CharacterPage = () => {
     const{id} = useParams();
     return (
         <div style={{marginTop: "100px", background: "red"}}>
-            {id};
+            {id}
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../Styles/CharacterList.css'
 import '../Styles/quake.css'
+import { Link } from 'react-router-dom';
 
 const CharacterList = () => {
 
@@ -8,17 +9,19 @@ const CharacterList = () => {
 
         <div className='characters-container'>
             <div className='character-list'>
-                <div class="flip-box shake-me">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <img src={require('../Pictures/Characters/ironman.jpg').default} alt="Paris" style={{width:"400px", height:"400px"}} />
-                        </div>
-                        <div class="flip-box-back" >
-                            <h2>Iron Man</h2>
-                            <p>What an amazing super hero</p>
+                <Link to={`/character/${1}`}>
+                    <div class="flip-box shake-me">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src={require('../Pictures/Characters/ironman.jpg').default} alt="Paris" style={{width:"400px", height:"400px"}} />
+                            </div>
+                            <div class="flip-box-back" >
+                                <h2>Iron Man</h2>
+                                <p>What an amazing super hero</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </Link>
                 <div class="flip-box shake-me">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
