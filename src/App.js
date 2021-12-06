@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import { BrowserRouter as  Router, Route, Switch } from 'react-router-dom';
 import CharacterPage from './Pages/CharacterPage';
+import NotFound from './Pages/NotFound';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
                 </Route>
                 <Route path = "/character">
                   <CharacterPage />
+                </Route>
+                <Route exact path="*">
+                  <NotFound/>
                 </Route>
           </Switch>
       </div>
