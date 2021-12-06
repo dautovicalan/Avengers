@@ -21,7 +21,7 @@ function App() {
                   <CharacterList/>
                   <Footer/>
                 </Route>
-                <Route path = "/character/:id">
+                <Route path = "/character">
                   <CharacterPage />
                 </Route>
           </Switch>

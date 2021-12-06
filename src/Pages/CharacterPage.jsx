@@ -1,11 +1,16 @@
 import { useParams } from "react-router"
+import useFetch from "../Hooks/useFetch";
 
 const CharacterPage = () => {
 
-    const{id} = useParams();
+    const charactersInfo = useFetch('/characters');
+
+    console.log(charactersInfo);
+
+
     return (
         <div style={{marginTop: "100px", background: "red"}}>
-            {id}
+            mars
         </div>
     )
 }

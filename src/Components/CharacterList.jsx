@@ -9,7 +9,7 @@ const CharacterList = () => {
 
         <div className='characters-container'>
             <div className='character-list'>
-                <Link to={`/character/${1}`}>
+                <Link to={`/character`}>
                     <div class="flip-box shake-me">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
