@@ -7,7 +7,7 @@ const CharacterList = () => {
 
     return (
 
-        <div className='characters-container'>
+        <div className='characters-container-list'>
             <div className='character-list'>
                 <Link to={`/character`}>
                     <div class="flip-box shake-me">
