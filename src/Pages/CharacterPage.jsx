@@ -1,24 +1,20 @@
-import { useParams } from "react-router"
 import useFetch from "../Hooks/useFetch";
+import { useState, useEffect } from "react";
 import '../Styles/CharacterPage.css'
 
 const CharacterPage = () => {
+    const charactersInfo = useFetch('characters');
 
-    const characterNames = [encodeURIComponent("iron man"), encodeURIComponent("thor"), encodeURIComponent("captain america"),
-                            encodeURIComponent("thanos"), encodeURIComponent("hulk"), encodeURIComponent("black widow"),
-                            encodeURIComponent("black panther"), encodeURIComponent("Doctor Strange")];
+    console.log(charactersInfo);
 
-    const charactersInfo = useFetch('characters', characterNames);
-
-    console.log(charactersInfo.length);
     return (
         <div className="characters-container" style={{marginTop: "100px"}}>
-            {charactersInfo.length != 0 && charactersInfo.map((element) =>{
+            {charactersInfo.length != 0 && charactersInfo.map((element, index) =>{
                 return(
-                    <div className="single-character" key={element.id}>
-                        <img src={element.picture} height="200px" width="200px"/>
+                    <div className="single-character" key={index}>
+                        <img src={`${element.thumbnail.path}.${element.thumbnail.extension}`} height="200px" width="200px"/>
                         <h1>{element.name}</h1>
-                        <p>{element.description}</p>
+                        {element.description !== "" ? <p>{element.description}</p> : <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint accusantium molestiae error. Culpa quasi, nesciunt fugit sed possimus esse molestiae cupiditate tempore iste laborum repellat illum reiciendis modi veritatis omnis.</p>}
                     </div>
                 )
             })}
