@@ -5,7 +5,7 @@ import characterApi from '../APIs/characterStoriesAxios';
 const apiKey = "d2983b072b2fbf494550a767d5b40bfb";
 const characterNames = [encodeURIComponent("iron man"), encodeURIComponent("thor"), encodeURIComponent("captain america"),
 encodeURIComponent("thanos"), encodeURIComponent("hulk"), encodeURIComponent("black widow"),
-encodeURIComponent("black panther"), encodeURIComponent("Doctor Strange")];
+encodeURIComponent("black panther"), encodeURIComponent("Doctor Strange"), encodeURIComponent("Hawkeye"), encodeURIComponent("Nebula"), encodeURIComponent("Spider-Man (Peter Parker)")];
 
 const useFetch = (resource) => {
     const[data, setData] = useState([]);
