@@ -20,7 +20,6 @@ const useFetch = (resource) => {
             console.log(error.message);
         }
     }
-
     useEffect(() => {
         fetchData();
     }, []);
