@@ -14,20 +14,20 @@ function App() {
       <div className="App">
         <Navbar/>
           <Switch>
-                <Route exact path = "/">
-                  <MainPic/>
-                  <Boxes/>
-                  <InfinityStones>
-                  </InfinityStones>
-                  <CharacterList/>
-                  <Footer/>
-                </Route>
-                <Route path = "/character">
-                  <CharacterPage />
-                </Route>
-                <Route exact path="*">
-                  <NotFound/>
-                </Route>
+              <Route exact path = "/">
+                <MainPic/>
+                <Boxes/>
+                <InfinityStones>
+                </InfinityStones>
+                <CharacterList/>
+                <Footer/>
+              </Route>
+              <Route path = "/character">
+                <CharacterPage />
+              </Route>
+              <Route exact path="*">
+                <NotFound/>
+              </Route>
           </Switch>
       </div>
     </Router>
