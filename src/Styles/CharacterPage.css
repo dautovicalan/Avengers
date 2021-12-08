@@ -1,12 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Marvel:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Estonia&family=Marvel:ital@1&display=swap");
+
+.character-component-page{
+    font-family: "Bebas Neue", cursive;
+}
+
+.character-component-page h1{
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 300ms ease;
+}
+
+.character-component-page h1:hover{
+    background-size: 100% 3px;
+}
+
 .characters-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 25px;
 }
 
 .single-character{
-    background: yellow;
+    padding: 2em;
+    border-radius: .3em;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    letter-spacing: .5px;
+}
+
+.single-character:hover{
+    transform: scale(1.1);
+    background-color: rgb(10,14,44);
+    color: white;
+
 }

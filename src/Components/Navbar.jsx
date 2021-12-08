@@ -18,8 +18,8 @@ const Navbar = () => {
                         <img className="logo" src={img3}/>                       
                         <li><a onClick={handleOpen}>Home</a></li>
                         <li><Link to="/character">Characters</Link></li>
-                        <li><Link to="/">Contact</Link></li>
-                        <li><Link to="/">About</Link></li>
+                        <li><Link to="/">Stones</Link></li>
+                        <li><Link to="/">Story</Link></li>
                     </ul>
                 </div>
                 <Modal show={show} onHide={handleClose}>
