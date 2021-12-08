@@ -4,7 +4,12 @@ import '../Styles/CharacterPage.css'
 
 const CharacterPage = () => {
 
-    const charactersInfo = useFetch('/characters');
+    const characterNames = [encodeURIComponent("iron man"), encodeURIComponent("thor"), encodeURIComponent("captain america"),
+                            encodeURIComponent("thanos"), encodeURIComponent("spider-man"), encodeURIComponent("black widow"),
+                            encodeURIComponent("black panther"), encodeURIComponent("antman")];
+
+    const charactersInfo = useFetch('characters', characterNames);
+    console.log(charactersInfo);
 
     return (
         <div className="characters-container" style={{marginTop: "100px"}}>
