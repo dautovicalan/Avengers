@@ -9,8 +9,7 @@ const Navbar = () => {
     return (
             <nav className="navbar-avengers">
                 <div className="flexbox-container">
-                    <ul>
-                        <img className="logo" src={img3}/>                       
+                    <ul>                       
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/characters">Characters</Link></li>
                         <li><Link to="/">Stones</Link></li>
