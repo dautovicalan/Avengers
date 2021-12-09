@@ -12,7 +12,7 @@ const Navbar = () => {
                     <ul>
                         <img className="logo" src={img3}/>                       
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/character">Characters</Link></li>
+                        <li><Link to="/characters">Characters</Link></li>
                         <li><Link to="/">Stones</Link></li>
                         <li><Link to="/story">Story</Link></li>
                     </ul>
