@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Styles/Story.css'
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 import pic1 from '../Pictures/StoryPictures/Samuel_Wilson.png'
 import pic2 from '../Pictures/StoryPictures/aot.png'
@@ -21,27 +20,6 @@ import pic16 from '../Pictures/StoryPictures/funeral.png'
 import pic17 from '../Pictures/StoryPictures/ende.png'
 
 const StoryPage = () => {
-    AOS.init({
-         // Global settings:
-            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-            initClassName: 'aos-init', // class applied after initialization
-            animatedClassName: 'aos-animate', // class applied on animation
-            useClassNames: false, // if true, will add content of data-aos as classes on scroll
-            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-
-
-            // Settings that can be overridden on per-element basis, by data-aos-* attributes:
-            offset: 120, // offset (in px) from the original trigger point
-            delay: 0, // values from 0 to 3000, with step 50ms
-            duration: 2000, // values from 0 to 3000, with step 50ms
-            easing: 'linear', // default easing for AOS animations
-            once: false, // whether animation should happen only once - while scrolling down
-            mirror: false, // whether elements should animate out while scrolling past them
-            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-    });
     return (
         <div>
             <div className="flexbox-container">
@@ -82,7 +60,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-5" data-aos="fade-up">
-                     <img src={pic1}></img> 
+                     <img src={pic1} alt='Holograms'></img> 
                 </div>
                 <div className="flexbox-item-6" data-aos="fade-right">
                     <p>
@@ -95,7 +73,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-7" data-aos="fade-up">
-                     <img src={pic2}></img> 
+                     <img src={pic2} alt='Thanos Choking'></img> 
                 </div>
                 <div className="flexbox-item-8" data-aos="fade-right">
                     Five years pass, and the surviving population have yet to cope with their losses. In San Francisco, 
@@ -114,7 +92,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-10" data-aos="fade-up">
-                     <img src={pic3}></img> 
+                     <img src={pic3} alt='Meeting'></img> 
                 </div>
                 <div className="flexbox-item-11" data-aos="fade-right">
                     <p>
@@ -128,7 +106,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-12" data-aos="fade-up">
-                    <img src={pic4}></img> 
+                    <img src={pic4} alt='Peter and Stark'></img> 
                 </div>
                 <div className="flexbox-item-13" data-aos="fade-right">
                     <p>
@@ -141,7 +119,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-14" data-aos="fade-up">
-                    <img src={pic5}></img> 
+                    <img src={pic5} alt='Arrow'></img> 
                 </div>
                 <div className="flexbox-item-15" data-aos="fade-right">
                     <p>
@@ -151,7 +129,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-16" data-aos="fade-up">
-                    <img src={pic6}></img>
+                    <img src={pic6} alt='Traveling'></img>
                 </div>
                 <div className="flexbox-item-17" data-aos="fade-right">
                     <p>
@@ -164,7 +142,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-18" data-aos="fade-up">
-                    <img src={pic7}></img>
+                    <img src={pic7} alt='Captain America'></img>
                 </div>
                 <div className="flexbox-item-19" data-aos="fade-right">
                     <p>
@@ -185,7 +163,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-20" data-aos="fade-up">
-                    <img src={pic8}></img>
+                    <img src={pic8} alt='Old thor'></img>
                 </div>
                 <div className="flexbox-item-21" data-aos="fade-right">
                     <p>
@@ -198,7 +176,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-22" data-aos="fade-up">
-                    <img src={pic9}></img>
+                    <img src={pic9} alt='Thanos'></img>
                 </div>
                 <div className="flexbox-item-23" data-aos="fade-right">
                     <p>
@@ -212,7 +190,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                  <div className="flexbox-item-24" data-aos="fade-up">
-                    <img src={pic10}></img>
+                    <img src={pic10} alt='Natasha'></img>
                 </div>
                 <div className="flexbox-item-25" data-aos="fade-right">
                     <p>
@@ -227,7 +205,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-26" data-aos="fade-up">
-                    <img src={pic11}></img>
+                    <img src={pic11} alt='Hulk'></img>
                 </div>
                 <div className="flexbox-item-27" data-aos="fade-right">
                     <p>
@@ -246,7 +224,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-28" data-aos="fade-up">
-                    <img src={pic12}></img>
+                    <img src={pic12} alt='Army'></img>
                 </div>
                 <div className="flexbox-item-29" data-aos="fade-right">
                     <p>
@@ -263,7 +241,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-30" data-aos="fade-up">
-                    <img src={pic13}></img>
+                    <img src={pic13} alt='Thanos Fight'></img>
                 </div>
                 <div className="flexbox-item-31" data-aos="fade-right">
                     <p>
@@ -278,7 +256,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-32" data-aos="fade-up">
-                    <img src={pic14}></img>
+                    <img src={pic14} alt='Iron Man'></img>
                 </div>
                 <div className="flexbox-item-33" data-aos="fade-right">
                     <p>
@@ -289,7 +267,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-34" data-aos="fade-up">
-                    <img src={pic15}></img>
+                    <img src={pic15} alt='Thanos Dead'></img>
                 </div>
                 <div className="flexbox-item-35" data-aos="fade-right">
                     <p>
@@ -301,7 +279,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-36" data-aos="fade-up">
-                    <img src={pic16}></img>
+                    <img src={pic16} alt='Funreal'></img>
                 </div>
                 <div className="flexbox-item-37" data-aos="fade-right">
                     <p>
@@ -313,7 +291,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-38" data-aos="fade-up">
-                    <img src={pic17}></img>
+                    <img src={pic17} alt='Shield'></img>
                 </div>
             </div>
         </div>

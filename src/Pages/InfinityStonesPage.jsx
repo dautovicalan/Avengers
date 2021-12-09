@@ -1,12 +1,11 @@
 import React from 'react'
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 import '../Styles/InfinityStonesPage.css'
 
 const InfinityStonesPage = () => {
+   
     return (
         <div className='infinity-stones-section'>
-            
             <div className='infiity-stone-component'>
                 <div className='header-flexbox'>
                     <h1 className='stone-component-header' data-aos="zoom-in">Space Stone</h1>

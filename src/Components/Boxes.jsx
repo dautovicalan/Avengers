@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Styles/BoxesStyle.css'
-import img2 from '../Pictures/Stars.jpg'
 
 const Boxes = () => {
 
