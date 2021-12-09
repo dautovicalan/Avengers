@@ -5,7 +5,7 @@ import img2 from '../Pictures/Stars.jpg'
 const Boxes = () => {
 
     return (
-        <div className="flexbox-container">
+        <div className="flexbox-container-boxes">
                 <div className="flexbox-inner-item-1">
                     <h3 className="first-post">
                         "<span id="red-color">Avengers</span>: Endgame is easily the Marvel Cinematic Universe’s <span id="red-color">most ambitious</span>, emotional, and affecting film to date, somehow managing to tie up more than a
