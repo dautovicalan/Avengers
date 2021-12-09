@@ -27,7 +27,9 @@
 .single-character{
     padding: 2em;
     border-radius: .3em;
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    /* box-shadow: 10px 10px 30px rgba(0,0,0,0.1); */
+    box-shadow: 0 8px 8px -4px rgb(233,59,30);
+    background: #eee;
     display: flex;
     flex-direction: column;
     align-items: center;
