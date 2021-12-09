@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Marvel:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Estonia&family=Marvel:ital@1&display=swap");
+
+.flexbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.flexbox-item-1 {
+  padding-top: 50px;
+  height: auto;
+  width: 50%;
+  font-family: "Bebas Neue", cursive;
+  color: crimson;
+  justify-content: center;
+}
+.flexbox-item-1 h2 {
+  font-size: 2.5vw;
+}
+.flexbox-item-2 {
+  height: auto;
+  width: 50%;
+  font-family: "Estonia", cursive;
+  color: goldenrod;
+  font-size: 1.7vw;
+}
+.flexbox-item-3 {
+  padding-top: 50px;
+  height: auto;
+  width: 50%;
+  font-family: "Bebas Neue", cursive;
+  color: crimson;
+}
+.flexbox-item-3 h2 {
+  font-size: 2.5vw;
+}
+.flexbox-item-4,
+.flexbox-item-6,
+.flexbox-item-8,
+.flexbox-item-9,
+.flexbox-item-11,
+.flexbox-item-13,
+.flexbox-item-15,
+.flexbox-item-17,
+.flexbox-item-19,
+.flexbox-item-21,
+.flexbox-item-23,
+.flexbox-item-25,
+.flexbox-item-27,
+.flexbox-item-29,
+.flexbox-item-31,
+.flexbox-item-33,
+.flexbox-item-35,
+.flexbox-item-37 {
+  height: auto;
+  width: 70%;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.3px;
+  color: goldenrod;
+  font-size: 1.3vw;
+  padding: 20px;
+}
+
+img {
+  align-items: center;
+  border-radius: 20px;
+}
+
+.flexbox-item-5,
+.flexbox-item-7,
+.flexbox-item-10,
+.flexbox-item-12,
+.flexbox-item-14,
+.flexbox-item-16,
+.flexbox-item-18,
+.flexbox-item-20,
+.flexbox-item-22,
+.flexbox-item-24,
+.flexbox-item-26,
+.flexbox-item-28,
+.flexbox-item-30,
+.flexbox-item-32,
+.flexbox-item-34,
+.flexbox-item-36,
+.flexbox-item-38 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
