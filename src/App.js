@@ -25,12 +25,15 @@ function App() {
               </Route>
               <Route path = "/characters">
                 <CharacterPage />
+                <Footer/>
               </Route>
               <Route path = "/story">
                 <StoryPage/>
+                <Footer/>
               </Route>
               <Route exact path="*">
                 <NotFound/>
+                <Footer/>
               </Route>
           </Switch>
       </div>
