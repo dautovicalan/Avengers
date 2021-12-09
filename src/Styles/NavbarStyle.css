@@ -52,10 +52,6 @@ li {
   float: left;
 }
 
-img {
-  float: right;
-}
-
 li a {
   display: block;
   color: rgb(192, 139, 26);
@@ -65,7 +61,8 @@ li a {
   font-size: 1vw;
 }
 
-.logo {
-  width: auto;
-  height: 3.5rem;
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  li a {
+    font-size: 5vw;
+  }
 }

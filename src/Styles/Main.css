@@ -39,6 +39,12 @@ body {
   width: 23%;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .flexbox-item-1-main .quote {
+    font-size: 5vw;
+  }
+}
+
 .flexbox-item-1-main .quote-1 {
   position: absolute;
   z-index: 2;
@@ -52,6 +58,14 @@ body {
   width: auto;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .flexbox-item-1-main .quote-1 {
+    font-size: 5vw;
+    font-family: "Bebas Neue", cursive;
+    text-shadow: 1px 1px black;
+  }
+}
+
 .flexbox-item-1-main .quote-2 {
   position: absolute;
   z-index: 2;
@@ -63,6 +77,14 @@ body {
   text-shadow: 3px 3px black;
   font-family: "Estonia", cursive;
   width: 25%;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .flexbox-item-1-main .quote-2 {
+    font-size: 5vw;
+    font-family: "Bebas Neue", cursive;
+    text-shadow: 1px 1px black;
+  }
 }
 
 .flexbox-item-1-main h1:hover {

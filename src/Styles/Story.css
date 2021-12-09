@@ -18,7 +18,14 @@
   justify-content: center;
 }
 .flexbox-item-1 h2 {
+  padding-top: 20px;
   font-size: 2.5vw;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .flexbox-item-1 h2 {
+    padding-top: 10px;
+    font-size: 15vw;
+  }
 }
 .flexbox-item-2 {
   height: auto;
@@ -27,6 +34,13 @@
   color: goldenrod;
   font-size: 1.7vw;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .flexbox-item-2 {
+    font-size: 6vw;
+  }
+}
+
 .flexbox-item-3 {
   padding-top: 50px;
   height: auto;
@@ -36,6 +50,11 @@
 }
 .flexbox-item-3 h2 {
   font-size: 2.5vw;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .flexbox-item-3 h2 {
+    font-size: 15vw;
+  }
 }
 .flexbox-item-4,
 .flexbox-item-6,
@@ -64,9 +83,39 @@
   padding: 20px;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .flexbox-item-4,
+  .flexbox-item-6,
+  .flexbox-item-8,
+  .flexbox-item-9,
+  .flexbox-item-11,
+  .flexbox-item-13,
+  .flexbox-item-15,
+  .flexbox-item-17,
+  .flexbox-item-19,
+  .flexbox-item-21,
+  .flexbox-item-23,
+  .flexbox-item-25,
+  .flexbox-item-27,
+  .flexbox-item-29,
+  .flexbox-item-31,
+  .flexbox-item-33,
+  .flexbox-item-35,
+  .flexbox-item-37 {
+    font-size: 4vw;
+  }
+}
+
 .flexbox-container img {
   align-items: center;
   border-radius: 20px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .flexbox-container img {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 .flexbox-item-5,

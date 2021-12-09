@@ -50,9 +50,21 @@
   padding-bottom: 50px;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .first-post {
+    font-size: 3.5vw;
+  }
+}
+
 .second-post {
   padding-top: 10px;
   padding-bottom: 50px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .second-post {
+    font-size: 3.5vw;
+  }
 }
 
 #red-color {
