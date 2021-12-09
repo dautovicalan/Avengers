@@ -6,7 +6,7 @@
 }
 
 .character-component-page h1{
-    background-image: linear-gradient(90deg, red, blue);
+    background-image: linear-gradient(90deg, rgb(232,60,28), rgb(50,15,27));
     background-size: 0% 3px;
     background-repeat: no-repeat;
     background-position: left bottom;
