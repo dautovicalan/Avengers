@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 import { BrowserRouter as  Router, Route, Switch } from 'react-router-dom';
 import CharacterPage from './Pages/CharacterPage';
 import NotFound from './Pages/NotFound';
+import StoryPage from './Pages/StoryPage';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
               </Route>
               <Route path = "/character">
                 <CharacterPage />
+              </Route>
+              <Route path = "/story">
+                <StoryPage/>
               </Route>
               <Route exact path="*">
                 <NotFound/>

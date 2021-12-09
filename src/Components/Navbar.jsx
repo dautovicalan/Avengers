@@ -19,7 +19,7 @@ const Navbar = () => {
                         <li><a onClick={handleOpen}>Home</a></li>
                         <li><Link to="/character">Characters</Link></li>
                         <li><Link to="/">Stones</Link></li>
-                        <li><Link to="/">Story</Link></li>
+                        <li><Link to="/story">Story</Link></li>
                     </ul>
                 </div>
                 <Modal show={show} onHide={handleClose}>
