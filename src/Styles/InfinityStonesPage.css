@@ -1,0 +1,37 @@
+*{
+    background-color: black;
+}
+.infinity-stones-section{
+    background-color: black;
+}
+.infiity-stone-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stone-component-header{
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    color: crimson;
+    padding-left: 20px; 
+    margin-bottom: 20px;
+}
+.stone-component-paragraph{
+    font-family: "Bebas Neue";
+    color: goldenrod;
+    font-size: 1.7vw;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.picture-flexbox{
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100%;
+}
+.picture-flexbox img{
+    border-radius: 20px;
+}
