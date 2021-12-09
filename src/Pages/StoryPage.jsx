@@ -82,7 +82,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-5" data-aos="fade-up">
-                     <img src={pic1}></img> 
+                     <img src={pic1} alt='Holograms'></img> 
                 </div>
                 <div className="flexbox-item-6" data-aos="fade-right">
                     <p>
@@ -95,7 +95,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-7" data-aos="fade-up">
-                     <img src={pic2}></img> 
+                     <img src={pic2} alt='Thanos Choking'></img> 
                 </div>
                 <div className="flexbox-item-8" data-aos="fade-right">
                     Five years pass, and the surviving population have yet to cope with their losses. In San Francisco, 
@@ -114,7 +114,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-10" data-aos="fade-up">
-                     <img src={pic3}></img> 
+                     <img src={pic3} alt='Meeting'></img> 
                 </div>
                 <div className="flexbox-item-11" data-aos="fade-right">
                     <p>
@@ -128,7 +128,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-12" data-aos="fade-up">
-                    <img src={pic4}></img> 
+                    <img src={pic4} alt='Peter and Stark'></img> 
                 </div>
                 <div className="flexbox-item-13" data-aos="fade-right">
                     <p>
@@ -141,7 +141,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-14" data-aos="fade-up">
-                    <img src={pic5}></img> 
+                    <img src={pic5} alt='Arrow'></img> 
                 </div>
                 <div className="flexbox-item-15" data-aos="fade-right">
                     <p>
@@ -151,7 +151,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-16" data-aos="fade-up">
-                    <img src={pic6}></img>
+                    <img src={pic6} alt='Traveling'></img>
                 </div>
                 <div className="flexbox-item-17" data-aos="fade-right">
                     <p>
@@ -164,7 +164,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-18" data-aos="fade-up">
-                    <img src={pic7}></img>
+                    <img src={pic7} alt='Captain America'></img>
                 </div>
                 <div className="flexbox-item-19" data-aos="fade-right">
                     <p>
@@ -185,7 +185,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-20" data-aos="fade-up">
-                    <img src={pic8}></img>
+                    <img src={pic8} alt='Old thor'></img>
                 </div>
                 <div className="flexbox-item-21" data-aos="fade-right">
                     <p>
@@ -198,7 +198,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-22" data-aos="fade-up">
-                    <img src={pic9}></img>
+                    <img src={pic9} alt='Thanos'></img>
                 </div>
                 <div className="flexbox-item-23" data-aos="fade-right">
                     <p>
@@ -212,7 +212,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                  <div className="flexbox-item-24" data-aos="fade-up">
-                    <img src={pic10}></img>
+                    <img src={pic10} alt='Natasha'></img>
                 </div>
                 <div className="flexbox-item-25" data-aos="fade-right">
                     <p>
@@ -227,7 +227,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-26" data-aos="fade-up">
-                    <img src={pic11}></img>
+                    <img src={pic11} alt='Hulk'></img>
                 </div>
                 <div className="flexbox-item-27" data-aos="fade-right">
                     <p>
@@ -246,7 +246,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-28" data-aos="fade-up">
-                    <img src={pic12}></img>
+                    <img src={pic12} alt='Army'></img>
                 </div>
                 <div className="flexbox-item-29" data-aos="fade-right">
                     <p>
@@ -263,7 +263,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-30" data-aos="fade-up">
-                    <img src={pic13}></img>
+                    <img src={pic13} alt='Thanos Fight'></img>
                 </div>
                 <div className="flexbox-item-31" data-aos="fade-right">
                     <p>
@@ -278,7 +278,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-32" data-aos="fade-up">
-                    <img src={pic14}></img>
+                    <img src={pic14} alt='Iron Man'></img>
                 </div>
                 <div className="flexbox-item-33" data-aos="fade-right">
                     <p>
@@ -289,7 +289,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-34" data-aos="fade-up">
-                    <img src={pic15}></img>
+                    <img src={pic15} alt='Thanos Dead'></img>
                 </div>
                 <div className="flexbox-item-35" data-aos="fade-right">
                     <p>
@@ -301,7 +301,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-36" data-aos="fade-up">
-                    <img src={pic16}></img>
+                    <img src={pic16} alt='Funreal'></img>
                 </div>
                 <div className="flexbox-item-37" data-aos="fade-right">
                     <p>
@@ -313,7 +313,7 @@ const StoryPage = () => {
                     </p>
                 </div>
                 <div className="flexbox-item-38" data-aos="fade-up">
-                    <img src={pic17}></img>
+                    <img src={pic17} alt='Shield'></img>
                 </div>
             </div>
         </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Styles/NavbarStyle.css'
-import img3 from '../Pictures/AvengersEndGame.png'
 import { Link } from 'react-router-dom'
 
 
