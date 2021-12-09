@@ -23,7 +23,7 @@ function App() {
                 <CharacterList/>
                 <Footer/>
               </Route>
-              <Route path = "/character">
+              <Route path = "/characters">
                 <CharacterPage />
               </Route>
               <Route path = "/story">

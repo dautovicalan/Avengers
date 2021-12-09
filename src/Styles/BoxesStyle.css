@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-.flexbox-container {
+.flexbox-container-boxes {
   display: flex;
   height: auto;
   justify-content: center;
@@ -17,7 +17,7 @@
 }
 
 .flexbox-inner-item-1 {
-  border: 1px solid black;
+  padding-top: 20px;
   height: auto;
   width: 50vh;
   transform: skew(0deg, 6deg);
@@ -32,7 +32,7 @@
 }
 
 .flexbox-inner-item-2 {
-  border: 1px solid black;
+  padding-top: 20px;
   height: auto;
   width: 50vh;
   transform: skew(0deg, -6deg);

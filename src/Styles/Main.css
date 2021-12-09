@@ -6,11 +6,11 @@ body {
   margin: 0;
 }
 
-.flexbox-container {
+.flexbox-container-main {
   display: flex;
 }
 
-.flexbox-item-1 {
+.flexbox-item-1-main {
   width: 100%;
   height: 80vh;
   overflow: hidden;
@@ -18,15 +18,14 @@ body {
   display: flex;
 }
 
-.flexbox-container .main-picture {
+.flexbox-container-main .main-picture {
   width: 100%;
   height: auto;
   object-fit: cover;
   position: relative;
-  top: -30px;
 }
 
-.flexbox-item-1 .quote {
+.flexbox-item-1-main .quote {
   position: absolute;
   z-index: 2;
   color: rgb(192, 139, 26);
@@ -40,7 +39,7 @@ body {
   width: 23%;
 }
 
-.flexbox-item-1 .quote-1 {
+.flexbox-item-1-main .quote-1 {
   position: absolute;
   z-index: 2;
   color: rgb(192, 139, 26);
@@ -53,7 +52,7 @@ body {
   width: auto;
 }
 
-.flexbox-item-1 .quote-2 {
+.flexbox-item-1-main .quote-2 {
   position: absolute;
   z-index: 2;
   color: rgb(192, 139, 26);
@@ -66,7 +65,7 @@ body {
   width: 25%;
 }
 
-.flexbox-item-1 h1:hover {
+.flexbox-item-1-main h1:hover {
   color: gold;
   text-shadow: 0 0 10px goldenrod, 0 0 20px goldenrod, 0 0 40px goldenrod,
     0 0 80px goldenrod, 0 0 120px goldenrod;
