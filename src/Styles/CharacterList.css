@@ -35,3 +35,15 @@
   background-size: 100% 14px;
   color: rgb(232,60,28);
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .characters-container-list{
+    height: auto;
+  }
+  .characters-container-list video{
+    aspect-ratio: auto;
+  }
+  .characters-container-list a{
+    font-size: 1.6rem;
+  }
+}
