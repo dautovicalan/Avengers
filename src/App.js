@@ -8,6 +8,7 @@ import { BrowserRouter as  Router, Route, Switch } from 'react-router-dom';
 import CharacterPage from './Pages/CharacterPage';
 import NotFound from './Pages/NotFound';
 import StoryPage from './Pages/StoryPage';
+import InfinityStonesPage from './Pages/InfinityStonesPage';
 
 function App() {
   return (
@@ -18,13 +19,15 @@ function App() {
               <Route exact path = "/">
                 <MainPic/>
                 <Boxes/>
-                <InfinityStones>
-                </InfinityStones>
+                <InfinityStones/>
                 <CharacterList/>
                 <Footer/>
               </Route>
               <Route path = "/characters">
                 <CharacterPage />
+              </Route>
+              <Route path = "/infinityStonesPage">
+                <InfinityStonesPage/>
               </Route>
               <Route path = "/story">
                 <StoryPage/>
