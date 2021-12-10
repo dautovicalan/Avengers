@@ -4,14 +4,14 @@ import '../Styles/CharacterPage.css'
 
 const CharacterPage = () => {
     const {data, finished, error} = useFetch('characters');
-    
+
     return (
         <div className="character-component-page">
             <h1 style={{textAlign: "center", fontSize:"3.4rem", marginTop:"10px"}}>Your Endgame Heroes</h1>
             {!finished && <div className="loading-container">
                 <div className="lds-ring"><div></div><div></div><div></div><div></div></div>
             </div>}
-            {finished && error !== null && <div style={{textAlign: "center"}}>
+            {finished && error !== null && <div style={{textAlign: "center", color: "rgb(192, 139, 26)", fontWeight: "bold"}}>
                 <h1>{error.message}</h1>
             </div>}
             <div className="characters-container" style={{marginTop: "100px"}}>
