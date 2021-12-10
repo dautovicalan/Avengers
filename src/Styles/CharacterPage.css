@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+.error-container{
+    animation: fadeIn linear 2s;
+}
+
 .character-component-page h1{
     padding-top: 90px;
     background-image: linear-gradient(90deg, rgb(232,60,28), rgb(50,15,27));
@@ -85,4 +89,9 @@
     100% {
       transform: rotate(360deg);
     }
+  }
+
+  @keyframes fadeIn{
+      0% {opacity: 0;}
+      100% {opacity: 1;}
   }
