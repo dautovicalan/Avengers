@@ -74,22 +74,22 @@
 
 /*----POSTAVLJANJE ANIMACIJA NA INFINITY STONE KOMPONENTE----*/
 
-.time-stone-glow{
+.time-stone-glow, .time-stone-glow a{
     animation: time-stone-glow 1s ease-in-out infinite alternate;
 }
-.power-stone-glow{
+.power-stone-glow, .power-stone-glow a{
     animation: power-stone-glow 1s ease-in-out infinite alternate;
 }
-.space-stone-glow{
+.space-stone-glow, .space-stone-glow a{
     animation: space-stone-glow 1s ease-in-out infinite alternate;
 }
-.soul-stone-glow{
+.soul-stone-glow, .soul-stone-glow a{
     animation: soul-stone-glow 1s ease-in-out infinite alternate;
 }
-.reality-stone-glow{
+.reality-stone-glow, .reality-stone-glow a{
     animation: reality-stone-glow 1s ease-in-out infinite alternate;
 }
-.mind-stone-glow{
+.mind-stone-glow, .mind-stone-glow a{
     animation: mind-stone-glow 1s ease-in-out infinite alternate;
 }
 
