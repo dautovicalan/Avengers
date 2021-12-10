@@ -30,6 +30,13 @@
     position: relative;
     height: auto;
 }
+.stone-component a{
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+}
+.stone-component a:hover {
+  color: rgb(214, 214, 214);
+}
 .stone-component h3{
     position: absolute;
     top: 20%;
@@ -51,12 +58,15 @@
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 32px;
+    font-size: 2vw;
     text-shadow: 1px 1px rgb(255, 230, 0);
     font-family: "Estonia", cursive;
     font-weight: bold;
     display: none;
     animation: stones-paragraph-fade-in 0.5s;
+    height: 50%;
+    width: 75%;
+    margin: auto;
 }
 .stone-component:hover+.stones-paragraph{
     display: block;

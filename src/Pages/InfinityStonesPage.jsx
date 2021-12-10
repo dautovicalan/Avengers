@@ -1,5 +1,6 @@
 import React from 'react'
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom'
 import '../Styles/InfinityStonesPage.css'
 
 const InfinityStonesPage = () => {
