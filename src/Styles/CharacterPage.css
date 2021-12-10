@@ -4,6 +4,15 @@
 .character-component-page{
     font-family: "Bebas Neue", cursive;
 }
+.loading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-container{
+    animation: fadeIn linear 2s;
+}
 
 .character-component-page h1{
     padding-top: 90px;
@@ -45,3 +54,44 @@
     color: white;
 
 }
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid rgb(192, 139, 26);
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: rgb(192, 139, 26) transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes fadeIn{
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+  }
