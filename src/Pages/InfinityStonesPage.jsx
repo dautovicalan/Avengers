@@ -31,7 +31,7 @@ const InfinityStonesPage = () => {
                     </p>
                 </div>
                 <div className='picture-flexbox'>
-                    <img src={require('../Pictures/InfinityStones/space_stone.jpg').default}/>
+                    <img src={require('../Pictures/InfinityStones/space_stone.jpg').default} alt='Space stone'/>
                 </div>
             </div>
             <div className='infiity-stone-component'>
@@ -62,7 +62,7 @@ const InfinityStonesPage = () => {
                     </p>
                 </div>
                 <div className='picture-flexbox'>
-                    <img src={require('../Pictures/InfinityStones/mind_stone.jpg').default}/>
+                    <img src={require('../Pictures/InfinityStones/mind_stone.jpg').default} alt='Mind Stone'/>
                 </div>
             </div>
             <div className='infiity-stone-component'>
@@ -87,7 +87,7 @@ const InfinityStonesPage = () => {
                     </p>
                 </div>
                 <div className='picture-flexbox'>
-                    <img src={require('../Pictures/InfinityStones/reality_stone.jpg').default}/>
+                    <img src={require('../Pictures/InfinityStones/reality_stone.jpg').default} alt='Reality Stone'/>
                 </div>
             </div>
             <div className='infiity-stone-component'>
@@ -112,7 +112,7 @@ const InfinityStonesPage = () => {
                     </p>
                 </div>
                 <div className='picture-flexbox'>
-                    <img src={require('../Pictures/InfinityStones/power_stone.jpg').default}/>
+                    <img src={require('../Pictures/InfinityStones/power_stone.jpg').default} alt='Power Stone'/>
                 </div>
             </div>
             <div className='infiity-stone-component'>
@@ -143,7 +143,7 @@ const InfinityStonesPage = () => {
                     </p>
                 </div>
                 <div className='picture-flexbox'>
-                    <img src={require('../Pictures/InfinityStones/time_stone.jpg').default}/>
+                    <img src={require('../Pictures/InfinityStones/time_stone.jpg').default} alt='Time Stone'/>
                 </div>
             </div>
             <div className='infiity-stone-component'>
@@ -165,7 +165,7 @@ const InfinityStonesPage = () => {
                     </p>
                 </div>
                 <div className='picture-flexbox'>
-                    <img src={require('../Pictures/InfinityStones/soul_stone.jpg').default}/>
+                    <img src={require('../Pictures/InfinityStones/soul_stone.jpg').default} alt='Soul Stone'/>
                 </div>
             </div>
         </div>
