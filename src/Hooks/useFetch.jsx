@@ -17,29 +17,22 @@ const useFetch = (resource) => {
     const[error, setError] = useState(null);
 
     const fetchData = () => {
-        try {
-            characterNames.map(async (element) => {
-                await characterApi.get(`https://gateway.marvel.com:443/v1/public/${resource}?name=${element}&ts=1&apikey=${apiKey}&hash=d1d17fa9c4005a5d24bfb2a9f6449b78`)
-                .then(response => {
-                    setData(data => [...data, response.data.data.results[0]]);
-                    setError(null);
-                })
-                .catch((error) => {
-                    console.log(error.message)
-                    setData(null);
-                    setError(error);
-                    setFinished(true);
-                });
-            });
-            // ! This is only for testing purpose. Remove before production
-            setTimeout(() => {
+        characterNames.map(async (element) => {
+            await characterApi.get(`https://gateway.marvel.com:443/v1/public/${resource}?name=${element}&ts=1&apikey=${apiKey}&hash=d1d17fa9c4005a5d24bfb2a9f6449b78`)
+            .then(response => {
+                setData(data => [...data, response.data.data.results[0]]);
+                setError(null);
+            })
+            .catch((error) => {
+                setData(null);
+                setError(error);
                 setFinished(true);
-            }, 5000);
-        } catch (error) {
-            console.log(error.message);
+            });
+        });
+        // ! This is only for testing purpose. Remove before production
+        setTimeout(() => {
             setFinished(true);
-            setError(error.message);
-        }
+        }, 5000);
     }
     useEffect(() => {
         fetchData();

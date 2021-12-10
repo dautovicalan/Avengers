@@ -4,9 +4,7 @@ import '../Styles/CharacterPage.css'
 
 const CharacterPage = () => {
     const {data, finished, error} = useFetch('characters');
-    console.log(error);;
-
-
+    
     return (
         <div className="character-component-page">
             <h1 style={{textAlign: "center", fontSize:"3.4rem", marginTop:"10px"}}>Your Endgame Heroes</h1>
