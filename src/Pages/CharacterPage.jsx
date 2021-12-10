@@ -1,8 +1,11 @@
+import Footer from "../Components/Footer";
 import useFetch from "../Hooks/useFetch";
 import '../Styles/CharacterPage.css'
 
 const CharacterPage = () => {
-    const {data, finished} = useFetch('characters');
+    const {data, finished, error} = useFetch('characters');
+    console.log(error);;
+
 
     return (
         <div className="character-component-page">
@@ -10,8 +13,11 @@ const CharacterPage = () => {
             {!finished && <div className="loading-container">
                 <div className="lds-ring"><div></div><div></div><div></div><div></div></div>
             </div>}
+            {finished && error !== null && <div style={{textAlign: "center"}}>
+                <h1>{error.message}</h1>
+            </div>}
             <div className="characters-container" style={{marginTop: "100px"}}>
-                {finished && data.map((element, index) =>{
+                {finished && error === null && data.map((element, index) =>{
                     return(
                         <div className="single-character" key={index}>
                             <img src={`${element.thumbnail.path}.${element.thumbnail.extension}`} height="200px" width="200px" alt={`Slikica ${index}`}/>
@@ -21,6 +27,7 @@ const CharacterPage = () => {
                     )
                 })}
             </div>
+            <Footer/>
         </div>
     )
 }

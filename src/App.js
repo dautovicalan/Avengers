@@ -47,7 +47,6 @@ function App() {
               </Route>
               <Route path = "/characters">
                 <CharacterPage />
-                <Footer/>
               </Route>
               <Route path = "/infinityStonesPage">
                 <InfinityStonesPage/>
