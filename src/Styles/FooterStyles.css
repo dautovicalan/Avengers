@@ -1,6 +1,5 @@
 .footer-container {
-  position: fixed;
-  bottom: 0px;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
