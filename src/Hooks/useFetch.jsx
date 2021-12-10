@@ -26,7 +26,6 @@ const useFetch = (resource) => {
             .catch((error) => {
                 setData(null);
                 setError(error);
-                setFinished(true);
             });
         });
         // ! This is only for testing purpose. Remove before production
