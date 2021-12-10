@@ -4,7 +4,7 @@ import "../Styles/InfinityStones.css"
 const InfinityStones = () => {
 
     const stoneNames = ['Mind Stone', 'Time Stone', 'Reality Stone', 'Space Stone', 'Power Stone', 'Soul Stone']
-
+    
     const stoneRef1 = useRef(null);
     const stoneRef2 = useRef(null);
     const stoneRef3 = useRef(null);
