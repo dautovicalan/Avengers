@@ -37,7 +37,7 @@ const InfinityStones = () => {
                     </div>
                     <div ref={stoneRef2} className="stone-component" onMouseEnter={() => handleOnHover(stoneRef2)} onMouseLeave={() => handleOffHover(stoneRef2)}>
                         <img src={require('../Pictures/InfinityStones/mind_stone.jpg').default} className="stone-picture"/>
-                        <h3 className="stone-name time-stone-glow"><Link to="/infinityStonesPage">{stoneNames[0]}</Link></h3>
+                        <h3 className="stone-name mind-stone-glow"><Link to="/infinityStonesPage">{stoneNames[0]}</Link></h3>
                         <p className="stones-paragraph">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
                              architecto fuga, minus harum nulla commodi repellendus asperiores neque perspiciatis quam, 
@@ -46,7 +46,7 @@ const InfinityStones = () => {
                     </div>
                     <div ref={stoneRef3} className="stone-component" onMouseEnter={() => handleOnHover(stoneRef3)} onMouseLeave={() => handleOffHover(stoneRef3)}>
                         <img src={require('../Pictures/InfinityStones/power_stone.jpg').default} className="stone-picture"/>
-                        <h3 className="stone-name time-stone-glow"><Link to="/infinityStonesPage">{stoneNames[4]}</Link></h3>
+                        <h3 className="stone-name power-stone-glow"><Link to="/infinityStonesPage">{stoneNames[4]}</Link></h3>
                         <p className="stones-paragraph">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
                              architecto fuga, minus harum nulla commodi repellendus asperiores neque perspiciatis quam, 
@@ -58,7 +58,7 @@ const InfinityStones = () => {
                 <div className="stone-picture-row">
                     <div ref={stoneRef4} className="stone-component" onMouseEnter={() => handleOnHover(stoneRef4)} onMouseLeave={() => handleOffHover(stoneRef4)}>
                         <img src={require('../Pictures/InfinityStones/soul_stone.jpg').default} className="stone-picture"/>
-                        <h3 className="stone-name time-stone-glow"><Link to="/infinityStonesPage">{stoneNames[5]}</Link></h3>
+                        <h3 className="stone-name soul-stone-glow"><Link to="/infinityStonesPage">{stoneNames[5]}</Link></h3>
                         <p className="stones-paragraph">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
                              architecto fuga, minus harum nulla commodi repellendus asperiores neque perspiciatis quam, 
@@ -67,7 +67,7 @@ const InfinityStones = () => {
                     </div>
                     <div ref={stoneRef5} className="stone-component" onMouseEnter={() => handleOnHover(stoneRef5)} onMouseLeave={() => handleOffHover(stoneRef5)}>
                         <img src={require('../Pictures/InfinityStones/reality_stone.jpg').default} className="stone-picture"/>
-                        <h3 className="stone-name time-stone-glow"><Link to="/infinityStonesPage">{stoneNames[2]}</Link></h3>
+                        <h3 className="stone-name reality-stone-glow"><Link to="/infinityStonesPage">{stoneNames[2]}</Link></h3>
                         <p className="stones-paragraph">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
                              architecto fuga, minus harum nulla commodi repellendus asperiores neque perspiciatis quam, 
@@ -76,7 +76,7 @@ const InfinityStones = () => {
                     </div>
                     <div ref={stoneRef6} className="stone-component" onMouseEnter={() => handleOnHover(stoneRef6)} onMouseLeave={() => handleOffHover(stoneRef6)}>
                         <img src={require('../Pictures/InfinityStones/space_stone.jpg').default} className="stone-picture"/>
-                        <h3 className="stone-name time-stone-glow"><Link to="/infinityStonesPage">{stoneNames[3]}</Link></h3>
+                        <h3 className="stone-name space-stone-glow"><Link to="/infinityStonesPage">{stoneNames[3]}</Link></h3>
                         <p className="stones-paragraph">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia perferendis rerum
                              architecto fuga, minus harum nulla commodi repellendus asperiores neque perspiciatis quam, 
