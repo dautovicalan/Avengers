@@ -21,7 +21,7 @@ const useFetch = (resource) => {
                 const response = await characterApi.get(`https://gateway.marvel.com:443/v1/public/${resource}?name=${element}&ts=1&apikey=${apiKey}&hash=d1d17fa9c4005a5d24bfb2a9f6449b78`);
                 setData(data => [...data, response.data.data.results[0]]);
             });
-            // ! This is only for testing purpose
+            // ! This is only for testing purpose. Remove before production
             setTimeout(() => {
                 setFinished(true);
             }, 5000);
