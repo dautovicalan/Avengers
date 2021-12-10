@@ -1,15 +1,10 @@
 import { useState, useEffect } from "react"
 //import api from '../APIs/dataAxios'
 import characterApi from '../APIs/characterStoriesAxios';
+import { characterNames } from "../APIs/characterNames";
 
 const apiKey = "d2983b072b2fbf494550a767d5b40bfb";
-const characterNames = [encodeURIComponent("iron man"), encodeURIComponent("thor"), encodeURIComponent("captain america"),
-encodeURIComponent("thanos"), encodeURIComponent("hulk"), encodeURIComponent("black widow"),
-encodeURIComponent("black panther"), encodeURIComponent("Doctor Strange"), encodeURIComponent("Hawkeye"), encodeURIComponent("Nebula"), encodeURIComponent("Spider-Man (Peter Parker)"),
-encodeURIComponent("Ant-Man (Eric O'Grady)"), encodeURIComponent("Carol Danvers"), encodeURIComponent("Wong"),
-encodeURIComponent("War Machine (Iron Man 3 - The Official Game)"), encodeURIComponent("Okoye"),
-encodeURIComponent("Pepper Potts"), encodeURIComponent("Valkyrie (Exiles)"),
-encodeURIComponent("Peter Quill"), encodeURIComponent("Winter Soldier"), encodeURIComponent("Groot")];
+
 
 const useFetch = (resource) => {
     const[data, setData] = useState([]);
